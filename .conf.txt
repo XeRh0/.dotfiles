@@ -1,0 +1,5 @@
+[Config aliases]
+bashconf  ~ confugre bash
+hyprconf  ~ hyprland config files folder
+kittyconf ~ configure kitty
+

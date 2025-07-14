@@ -1,0 +1,78 @@
+{
+  "modules": [
+    // gpu/cpu status
+    // cpu
+
+    {
+      "type" : "custom",
+      "keyColor" : "white",
+      "format" : "┌──────────────[ Hardware   ]─────────────┐"
+    },
+    {
+      "type" : "cpu",
+      "keyColor" : "white",
+      "key" : " ",
+      "format" : "│ {name}                        │"
+    },
+
+    {
+      "type" : "cpu",
+      "temp" : true,
+      "keyColor" : "white",
+      "key" : " ",
+      "format" : "│  Temp: {temperature}                           │"
+    },
+//    {
+//      "type" : "cpuusage",
+//      "format" : "│ 󱇝 Use: Min: {min}, Max:{max}, Avg:{avg}          │",
+//      "key" : " "
+//    },
+    {
+      "type" : "gpu",
+      "keyColor" : "white",
+      "format" : "│ {name}       │",
+      "key" : " "
+    },  
+    {
+      "type" : "gpu",
+      "keyColor" : "white",
+      "format" : "│  Driver: {driver} │",
+      "key" : " "
+    },  
+    {
+      "type" : "custom",
+      "keyColor" : "white",
+      "format" : "└──────────────────────────────────────────┘"
+    },
+
+    "break",
+    "processes",
+
+    // storage/memory
+    "memory",
+    "disk",
+    "swap",
+    "break",
+
+    // os
+    "kernel",
+    "lm",
+    "os",
+    "packages",
+    "shell",
+    "break",
+   
+    // current
+    "datetime",
+    "media",
+    "player",
+    "uptime",
+    "weather"
+
+    //"command",
+    //"de",
+    //"editor"
+    //"break",
+    //"separator",
+  ]
+}
